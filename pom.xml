@@ -1,12 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>COS-Demo1</groupId>
-  <artifactId>COS-Demo1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>COS-Demo1</groupId>
+	<artifactId>COS-Demo1</artifactId>
+	<version>0.9</version>
   <name>COS_Maven</name>
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    <sourceDirectory>./src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -20,7 +21,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
+          <warSourceDirectory>./WebContent</warSourceDirectory>
         </configuration>
       </plugin>
     </plugins>
@@ -40,4 +41,5 @@
   		</dependency>
   	</dependencies>
   </dependencyManagement>
+  <url>https://cos-demo1.mybluemix.net/</url>
 </project>

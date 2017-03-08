@@ -1,3 +1,4 @@
+---
 applications:
 - path: .
   memory: 512M
@@ -7,6 +8,7 @@ applications:
   host: COS-Demo1
   disk_quota: 1024M
   services:
-  - COS-Demo1-cloudantNoSQLDB
-  - Storage-cos-demo1
   - availability-monitoring-auto
+  - Storage-cos-demo1
+  - COS-Demo1-cloudantNoSQLDB
+  - Continuous Delivery
