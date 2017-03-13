@@ -10,4 +10,4 @@ applications:
   services:
   - availability-monitoring-auto
   - Storage-cos-demo1
-  - COS-Demo1-cloudantNoSQLDB
+ 
