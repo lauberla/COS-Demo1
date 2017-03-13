@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('WebContent/index.jsp', { title: 'COS-Demo1' });
+  res.render('index.html', { title: 'COS-Demo1' });
 };
